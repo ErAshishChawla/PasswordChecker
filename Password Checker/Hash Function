@@ -1,0 +1,15 @@
+Hash function is used all across computer science. A hash function is simply that generates a value of fixed length
+for each input it gets.
+
+There are many types of Hash Generators like md5, SHA-1, SHA-256 etc.
+MD5: for hello: 5d41402abc4b2a76b9719d911017c592
+
+Hash is one way. There is no way to decrypt from hash back to word. The only way is to get all the possible
+hashes of each word and then find the exact hash match to get the word.
+
+Hash for one word is going to be the same every time. Hash for hello will be same every time.
+
+So, hash function is idempotent. It is a fancy way of saying a function given an input always gives the same output
+for the same input. and we have no idea how to convert the output back to input.
+
+Hash functions are really really fast. As the complexity of hash increases more time it takes.

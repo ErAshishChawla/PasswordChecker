@@ -1,0 +1,23 @@
+We are going to build a password checker. It is not some silly dumb password checker. It is the most secure way to check
+if your password has ever been hacked
+
+We are going to run the terminal and run PasswordChecker.py and input password. We will check if the password has ever
+been hacked
+run command: python PasswordChecker.py <pass1> <pass2>
+
+The databases often get leaked and this data leak often contains emails, phonenumbers, passwords, addresses etc.
+Hackers compile this list of emails and passwords, and try to login to different services. There is a website
+created by Troy Hunt(a famous security researcher) and it is called https://haveibeenpwned.com/
+We can search emails and check if the entered email has ever been pwned or has been a part of data breach.
+
+We can also check the same for passwords. We enter a password and we can check if it has been breached or not.
+
+Why do we care if email and passwords have been leaked?
+Hackers use something called dictionary attack and dictionary attack is similar to the dictionary in python. Hacker
+uses a massive dictionary which contains username and password. Hackers run this dictionary into different websites and
+try to login to them using brute force attack. If your username and password is in this dictionary then it is risky
+that they may login to your account.
+
+This website is also not to be trusted. When we enter our password to be checked, it is sent through the internet and
+someone might intercept it which is risky. There is a better way of doing this. This website also provides us an api
+through which passwords can be checked in a secured way
